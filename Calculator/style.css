@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./imgs/3440x1440-neon-t5uaefvjjzea3wvz.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .main .fieldset{
+    height: 65%;
+    width: 25%;
+    border-radius: 20px;
+} */
+.main .calFrame{
+    height: 550px;
+    width: 400px;
+    border: 2px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #6441a56c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a0845, #6441a592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main .calFrame .colorBtn{
+    height: 1.5rem;
+    width: 6rem;
+    border-radius: 50px;
+    border: none;
+    border: 1px solid purple;
+    background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: wheat;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+.main .calFrame .colorBtn:hover{
+    transform: scale(0.8);
+}
+.main .calFrame .calHead{
+    height: 20%;
+    width: 90%;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    border-bottom-style:dashed ;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    align-items:flex-end;
+    background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc243072, #7b439772);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main .calFrame .calHead .outinp{
+    height: 50%;
+    width: 100%;
+    /* background: rgba(118, 51, 194, 0.648); */
+    margin-right: 5px;
+    text-align:end;
+    color: wheat;
+    font-size: 2rem;
+}
+.main .calFrame .calBody{
+    width: 90%;
+    height: 75%;
+    border-top: 3px solid green;
+    border-left: 3px solid green;
+    border-radius: 20px;
+    background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #33001b, #ff008470);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #33001b, #ff008467); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main .calFrame .calBody .arthBtn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.main .calFrame .calBody .arthBtn .btn{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+
+}
+.main .calFrame .calBody .arthBtn .AC{
+    height: 10%;
+    width: 48%;
+    cursor: pointer;
+    border-radius: 10px;   
+    border: none;
+}
+.main .calFrame .calBody .arthBtn .zero{
+    height: 10%;
+    width: 48%;
+    cursor: pointer;
+    border-radius: 10px;   
+    border: none;
+}
+.main .calFrame .calBody .arthBtn .dob{
+    background: #948E99;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    border: none;
+    color: wheat;
+}
+/* .main .calFrame .calBody .hide1{
+    display: none;
+} */
+.main .calFrame .calBody .othBtn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.main .calFrame .calBody .arthBtn .dob{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+}
+.main .calFrame .calBody .othBtn .btn{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+
+}
+.main .calFrame .calBody .othBtn .btn1{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    border-radius: 150px;
+    border: none;
+    font-weight: bold;
+}
+.main .calFrame .calBody .othBtn .curr{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    border-radius: 150px;
+    border: none;
+    font-weight: bold;
+}
+
+.main .calFrame .calBody .hide2{
+    display: none;
+}
+.main .calFrame .calBody .currBtn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.main .calFrame .calBody .currBtn .btn{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+}
+/* .main .calFrame .calBody .currBtn .btn{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none; */
+/* 
+} */
+.main .calFrame .calBody .arthBtn .prc{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+
+}
+.main .calFrame .calBody .arthBtn .curr{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+
+}
+.main .calFrame .calBody .arthBtn .dvd{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+
+}
+.main .calFrame .calBody .arthBtn .mltply{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+
+}
+.main .calFrame .calBody .arthBtn .mins{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+
+}
+.main .calFrame .calBody .arthBtn .pls{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+
+}
+.main .calFrame .calBody .arthBtn .eql{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 150px;
+    border: none;
+
+}
+.main .calFrame .calBody .currBtn .btn1{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    border-radius: 150px;
+    border: none;
+    font-weight: bold;
+}
+.main .calFrame .calBody .currBtn .curr1{
+    height: 10%;
+    width: 23%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    border-radius: 150px;
+    border: none;
+    font-weight: bold;
+}
+.main .calFrame .calBody .hide3 {
+    display: none;
+}

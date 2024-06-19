@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Voice Assistant Extension",
+    "description": "A voice assistant extension for basic commands.",
+    "version": "3.0",
+    "permissions": [
+      "activeTab",
+      "speechRecognition",
+      "tabs"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "imgs/iron-pic.png"
+      }
+    },
+    "icons": {
+      "16": "imgs/iron-pic.png"
+    }
+    
+    
+  }
+  

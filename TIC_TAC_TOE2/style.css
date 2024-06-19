@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url(./imgs/TIC_TAC_TOE2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+body .details{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    background: #0000007a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+body .details .title{
+    width: 80%;
+    height: 20%;
+}
+body .details .title img{
+    height: 100%;
+    width: 100%;
+}
+body .details .newGame{
+    width: 80%;
+    height: 15%;
+    /* background: rgb(0, 255, 21); */
+}
+body .details .newGame .newGameBtn{
+    height: 100%;
+    width: 100%;
+    border-radius: 150px;
+    font-size: 2rem;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: wheat;
+}
+body .details .winner{
+    width: 80%;
+    height: 23%;
+    
+}
+body .details .hide{
+    display: none;
+    background-image: url(./imgs/WInner.png);
+    background-position: center;
+    background-size:330px;
+    background-repeat: no-repeat;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+body .checkWinner{
+    width: 80%;
+    height: 15%;
+}
+body .checkWinner .callWinner{
+    height: 100%;
+    width: 100%;
+    border-radius: 150px;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color: wheat;
+    border: none;
+}
+body .details .reset{
+    width: 80%;
+    height: 15%;
+    /* background: rgb(0, 149, 255); */
+}
+body .details .reset .resetBtn{
+    height: 100%;
+    width: 100%;
+    border-radius: 150px;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: wheat;
+    border: none;
+}
+body .game{
+    height: 100%;
+    width: 50%;
+    background: #0000007a;
+    /* border: 2px solid rgb(0, 255, 0); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+body .game .plbtn {
+    height: 15%;
+    width: 17%;
+    border-radius: 20px;
+    font-size: 4rem;
+    color: yellowgreen;
+    border: none;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #e74d3cd3, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #e74d3cd8, #00000092); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

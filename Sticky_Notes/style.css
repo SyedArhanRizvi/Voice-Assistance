@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./imgs/image-asset.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    width: 100%;
+    height: 15%;
+    background-color: aqua;
+    /* background: #1D4350;  fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+body .dynaamic{
+    height: 80%;
+    width: 40%;
+    position: relative;
+    background: #4B79A1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body #myVideo {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+body .hide{
+    height: 80%;
+    width: 40%;
+}
+body .sticky{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #403A3E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BE5869, #403A3E); /* W3C, IE 10+/ Edge,  Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body .sticky #textArea{
+    height: 50%;
+    width: 60%;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+body .sticky #colorBox {
+    height: 10%;
+    width: 30%;
+}
+body .sticky .btn{
+    height: 6%;
+    width: 20%;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+body .sticky .btn:hover{
+    transform: scale(0.8);
+    background: rgb(123, 255, 0);
+    color: black;
+    border: 1px solid black;
+}
